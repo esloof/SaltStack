@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE simplemind-mindmaps>
+
+<simplemind-mindmaps doc-version="3" generator="SimpleMindOSXN" gen-version="1.30.1">
+    <mindmap>
+        <meta>
+            <guid guid="SaltStack"></guid>
+            <title text="Salt Master"></title>
+            <style key="system.spring-levels"></style>
+            <auto-numbering style="disabled"></auto-numbering>
+            <scrollstate zoom="80" x="-653.45" y="-179.60"></scrollstate>
+            <selection guid="SHRJXXvNNFYBUIIoGYlYvw" type="node" id="0"></selection>
+            <main-centraltheme id="0"></main-centraltheme>
+        </meta>
+        <topics>
+            <topic id="0" parent="-1" guid="SHRJXXvNNFYBUIIoGYlYvw" x="175.50" y="135.51" palette="1" colorinfo="1" text="Salt Master" textfmt="plain"></topic>
+            <topic id="1" parent="0" guid="WTL1wEQgO0hT5fyJbwrWcg" x="314.66" y="277.75" palette="2" colorinfo="2" text="Minion" textfmt="plain"></topic>
+            <topic id="2" parent="1" guid="G43j7jPIRY584fFqEgI4Dg" x="443.40" y="260.26" palette="0" colorinfo="-1" text="Grain" textfmt="plain">
+                <style>
+                    <fillcolor r="253" g="141" b="111"></fillcolor>
+                    <strokecolor r="179" g="41" b="3"></strokecolor>
+                </style>
+                <fillcolor r="253" g="141" b="111"></fillcolor>
+                <strokecolor r="179" g="41" b="3"></strokecolor>
+            </topic>
+            <topic id="3" parent="1" guid="YeuoekYsLBZhqYHuVC9Grg" x="444.28" y="311.09" palette="0" colorinfo="-1" text="Grain" textfmt="plain">
+                <style>
+                    <fillcolor r="253" g="141" b="111"></fillcolor>
+                    <strokecolor r="179" g="41" b="3"></strokecolor>
+                </style>
+                <fillcolor r="253" g="141" b="111"></fillcolor>
+                <strokecolor r="179" g="41" b="3"></strokecolor>
+                <parent-relation guid="Y1xjSyBbokEBIW2rDBWqiA"></parent-relation>
+            </topic>
+            <topic id="4" parent="1" guid="IrXlZD8e2ahRczfEMd7d2w" x="201.04" y="276.01" text="Beacon" textfmt="plain"></topic>
+            <topic id="5" parent="4" guid="V4cyXU7rYS0YZzgiFxyS_Q" x="200.15" y="361.77" text="State File" textfmt="plain"></topic>
+            <topic id="6" parent="5" guid="Cq7DWldE0ThGSnjaByrI_w" x="196.87" y="458.99" text="beacon state module" textfmt="plain">
+                <parent-relation guid="CRxK4DChomkZ7lWmA5raPQ"></parent-relation>
+            </topic>
+            <topic id="7" parent="6" guid="WwNCAQAMeGcPfXDda4m5Ag" x="426.49" y="387.65" text="beacon.present" textfmt="plain"></topic>
+            <topic id="8" parent="6" guid="BHype1zMjuRUvr0ecRhSpA" x="423.46" y="426.39" text="beacon.absent" textfmt="plain"></topic>
+            <topic id="9" parent="6" guid="Dmes2CnCae1JoDdhBzW9lA" x="432.51" y="466.83" text="beacon.disabled" textfmt="plain"></topic>
+            <topic id="10" parent="6" guid="YAR9KSTChAtI5yi8Y9T2VA" x="430.39" y="506.82" text="beacon.enabled" textfmt="plain"></topic>
+            <topic id="11" parent="0" guid="Yk-iIhLtaNseyXTKduBByA" x="-90.60" y="78.46" text="RaaS" textfmt="plain"></topic>
+            <topic id="12" parent="11" guid="dGpxGE-y_SABPV8RHEcQcg" x="-142.31" y="11.08" text="Redis" textfmt="plain"></topic>
+            <topic id="13" parent="11" guid="LCGTtBJhWnleaqOHDgwtig" x="-24.87" y="11.10" text="PostgreSQL" textfmt="plain"></topic>
+            <topic id="14" parent="11" guid="c5Mr6guN1lVfo6d-fvSYVw" x="-95.49" y="11.31" text="UI" textfmt="plain"></topic>
+            <topic id="15" parent="11" guid="e29y3mMzYrQ1LlCob9nj9w" x="-283.01" y="243.25" text="File Server = sseapi - roots - git" textfmt="plain">
+                <parent-relation guid="en6PXVrqhkcO2y7iJVfM-A"></parent-relation>
+            </topic>
+            <topic id="16" parent="15" guid="MMHIowzQsk80LLFBY6goeA" x="-324.98" y="364.96" text="Base" textfmt="plain"></topic>
+            <topic id="17" parent="16" guid="MuZf1DZrr7kMIPRpXwfziA" x="-471.60" y="401.63" text="Salt state files" textfmt="plain">
+                <parent-relation guid="WK6NG2greBVkS__ta86osw"></parent-relation>
+            </topic>
+            <topic id="18" parent="17" guid="fHwFpAO-cMk5wf-NCFKn3g" x="-619.65" y="405.06" text="Identifier" textfmt="plain"></topic>
+            <topic id="19" parent="17" guid="EIZ3AARwMRNNTx4HaTUEHA" x="-604.68" y="445.84" text="State module" textfmt="plain"></topic>
+            <topic id="20" parent="17" guid="bJupKTGbHfRVA6zPWIfkvQ" x="-617.29" y="491.42" text="Function" textfmt="plain"></topic>
+            <topic id="21" parent="17" guid="eM4QvDZCEzxbIkyqQbFrJw" x="-584.21" y="535.60" text="Function argument" textfmt="plain"></topic>
+            <topic id="22" parent="17" guid="A9B5KzLErlEGBDhxNJJBzg" x="-616.86" y="580.52" text="Requisite" textfmt="plain"></topic>
+            <topic id="23" parent="16" guid="dhluRky3yJE7VM5zGM9Tqw" x="-555.75" y="645.22" text="System configuration files" textfmt="plain">
+                <parent-relation guid="a-w7lEcy8sdhPmZtAppn7Q"></parent-relation>
+            </topic>
+            <topic id="24" parent="16" guid="SM0KMmqLl_FtFCETPGA2HA" x="-319.73" y="456.15" text="Top files" textfmt="plain">
+                <parent-relation guid="SONaa02OZe9XomGnRFLNSg"></parent-relation>
+            </topic>
+            <topic id="25" parent="24" guid="GXKp3DVhq_c_oRlCQFw4Xg" x="-402.29" y="645.58" text="Environment" textfmt="plain"></topic>
+            <topic id="26" parent="24" guid="F72LrjTy1Ug9iH4aDHwjoQ" x="-312.62" y="648.64" text="Target" textfmt="plain"></topic>
+            <topic id="27" parent="24" guid="CPdhjGL2QOhvcN7Uf4WMSg" x="-218.31" y="647.65" text="Salt state files" textfmt="plain"></topic>
+            <topic id="28" parent="15" guid="QzxiCEBNpapCsBwADAlsOg" x="-225.98" y="366.82" text="SSE" textfmt="plain"></topic>
+            <topic id="29" parent="28" guid="C9aiOQzIBjdKrjGGRPx2KQ" x="-217.88" y="480.96" text="Files that\Nmust be\Ncopied to the\NSalt minions" textfmt="plain">
+                <parent-relation guid="Ktk9my_EPRNIaaJWIPKr4g"></parent-relation>
+            </topic>
+            <topic id="30" parent="11" guid="EyAblwPAw35i5vLadW-9ug" x="-124.13" y="243.45" text="Reactor" textfmt="plain">
+                <parent-relation guid="Uf7F2FvTawND1s4-XYruiA"></parent-relation>
+            </topic>
+            <topic id="31" parent="30" guid="AA5VwW89IBAdZbUJWxGXwg" x="-121.04" y="360.54" text="Reactor.conf" textfmt="plain"></topic>
+            <topic id="32" parent="31" guid="C4wosCjJhIgo8qc1FjrsCg" x="-80.36" y="449.59" text="SLS reaction files" textfmt="plain">
+                <parent-relation guid="b0mYdyzjJeZGm1DEc8ZB8g"></parent-relation>
+            </topic>
+            <topic id="33" parent="32" guid="Ca-0yhtaDeJk3pSWGBdhow" x="-56.42" y="525.69" text="Local" textfmt="plain"></topic>
+            <topic id="34" parent="32" guid="RRx3zy5-y_cfTR83JSD0-A" x="5.56" y="528.29" text="Runner" textfmt="plain"></topic>
+            <topic id="35" parent="32" guid="U0FQA2g0R_MI9etMKsiCYA" x="-114.64" y="526.48" text="Wheel" textfmt="plain"></topic>
+            <topic id="36" parent="11" guid="Nx-pISFdI29B5RVdQDv0AQ" x="-58.83" y="244.06" text="Pilar" textfmt="plain">
+                <parent-relation guid="BJzvjGzJdXNzxdqSBKtFTQ"></parent-relation>
+            </topic>
+            <topic id="37" parent="11" guid="SWKazmwecgA-yg-ofd4oMw" x="-318.30" y="146.90" text="Target Groups" textfmt="plain">
+                <parent-relation guid="XAaVgxErj5xfvN0PS1At-w"></parent-relation>
+            </topic>
+            <topic id="38" parent="37" guid="Pg61giZYLdQ_Fm_tR75qTQ" x="-578.28" y="162.83" text="Grains (minion ID)" textfmt="plain"></topic>
+            <topic id="39" parent="37" guid="QbI7tiP1BIRf1cvwBs6zhg" x="-585.90" y="125.44" text="Glob expression" textfmt="plain"></topic>
+            <topic id="40" parent="37" guid="UnPQe38i6ycr76h-JbUgfg" x="-558.79" y="77.85" text="Perl Compatible Regular\NExpressions (PCRE)" textfmt="plain"></topic>
+            <topic id="41" parent="37" guid="Z1czGzTlk8tQfaLeHnbcPA" x="-621.97" y="199.86" text="List" textfmt="plain"></topic>
+            <topic id="42" parent="37" guid="VkK3OhJiuDxestA9KEF9Eg" x="-562.63" y="237.37" text="Compound matching" textfmt="plain"></topic>
+            <topic id="43" parent="37" guid="bjYjPyKJnnsFzGuactMSyw" x="-546.34" y="275.56" text="Complex logical matching" textfmt="plain"></topic>
+            <topic id="44" parent="11" guid="QJGtiSJyn7EBPocCdZcBbg" x="-301.79" y="-80.54" text="Jobs and Commands" textfmt="plain">
+                <parent-relation guid="PlnNYHm_Czp242MyYCZW7g"></parent-relation>
+            </topic>
+            <topic id="45" parent="44" guid="D1MT7nmSRix3flgYa1mpcg" x="-326.66" y="113.44" text="Target" textfmt="plain"></topic>
+            <topic id="46" parent="44" guid="dKOPnXDfZ_Ba37BmbS6xtg" x="41.74" y="-128.48" text="Module: Installing software packages" textfmt="plain">
+                <parent-relation guid="Cr3VyFc7NSg2qddtSMyLSw"></parent-relation>
+            </topic>
+            <topic id="47" parent="46" guid="ZkyX13Uj0fcUmgosYhnMLg" x="386.74" y="-163.22" text="Function" textfmt="plain"></topic>
+            <topic id="48" parent="47" guid="EoiD9l34SwoYpk1wLhZn5A" x="504.93" y="-162.62" text="Arguments" textfmt="plain">
+                <parent-relation guid="Qh3EIkj87W1LJnjEPBeXVg"></parent-relation>
+            </topic>
+            <topic id="49" parent="46" guid="dnRUIC4jYuxJSjqsT6dJ4A" x="386.31" y="-121.66" text="Function" textfmt="plain"></topic>
+            <topic id="50" parent="49" guid="b4Osr3ID-rcR3jzYVtrfyg" x="504.24" y="-121.55" text="Arguments" textfmt="plain"></topic>
+            <topic id="51" parent="44" guid="cW20Im-yYSZI25gNYg7-bA" x="15.00" y="-86.53" text="Module: Restarting services " textfmt="plain">
+                <parent-relation guid="fZNi_HXAR1oQivWYP0Wesg"></parent-relation>
+            </topic>
+            <topic id="52" parent="51" guid="KLlHPFmeMPJ7SlPoGib7Xg" x="386.15" y="-77.38" text="Function" textfmt="plain"></topic>
+            <topic id="53" parent="52" guid="do4qvis6LmhVx83-BeE-rQ" x="506.62" y="-78.13" text="Arguments" textfmt="plain"></topic>
+            <topic id="54" parent="51" guid="SVCSGEQl6_V8NfnLPfQhtQ" x="387.94" y="-33.08" text="Function" textfmt="plain"></topic>
+            <topic id="55" parent="54" guid="JIFbPifkv4x4VtWoIhS-Og" x="506.74" y="-37.12" text="Arguments" textfmt="plain"></topic>
+            <topic id="56" parent="44" guid="Oq6IyQuJEAca7BCfTlgs6w" x="39.47" y="-44.19" text="Module: Running remote commands" textfmt="plain">
+                <parent-relation guid="GbVL3nBgwYhGFFI4bCkcWg"></parent-relation>
+            </topic>
+            <topic id="57" parent="56" guid="MMXaUxsjoQFx3mz1KvEUIA" x="388.09" y="12.12" text="Function" textfmt="plain"></topic>
+            <topic id="58" parent="57" guid="HaUG5gjhy0BhWlztN1pSxQ" x="508.82" y="3.74" text="Arguments" textfmt="plain"></topic>
+            <topic id="59" parent="56" guid="YM8vXxd6TQQVrc-dTCXAzw" x="389.05" y="51.98" text="Function" textfmt="plain"></topic>
+            <topic id="60" parent="59" guid="eUKMyCduryUjg28faMY5dw" x="508.03" y="47.84" text="Arguments" textfmt="plain"></topic>
+            <topic id="61" parent="0" guid="Fq4sWQGwZ6RsT_-CVQf5uQ" x="30.02" y="242.16" text="Saltmine" textfmt="plain">
+                <parent-relation guid="P5VgoDow6bIYOmpGAtHCqA"></parent-relation>
+            </topic>
+        </topics>
+        <relations></relations>
+        <node-groups></node-groups>
+    </mindmap>
+</simplemind-mindmaps>
